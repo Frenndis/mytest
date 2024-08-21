@@ -13,8 +13,40 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-grid>
+    <div id="container">
+      <ion-col size="auto">
+        <ion-card>
+          <img alt="Silhouette of mountains"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Logo_DuocUC.svg/1200px-Logo_DuocUC.svg.png"
+            width="20%" height="20%" />
+          <ion-card-header>
+            <ion-card-title>Iniciar Sesión</ion-card-title>
+            <ion-card-subtitle>DuocUC</ion-card-subtitle>
+          </ion-card-header>
+
+          <ion-card-content>
+            <ion-item>
+              <ion-input label="User" labelPlacement="floating" placeholder="Enter text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-input type="password" label="Password" labelPlacement="floating"
+                placeholder="Enter text"></ion-input>
+            </ion-item>
+            <br>
+            <ion-button shape="round">Ingresar</ion-button>
+            <br>
+            <br>
+            <p>Registro Alumno<a target="_blank" rel="noopener noreferrer"
+                href="https://ionicframework.com/docs/components">Registrar</a></p>
+            <br>
+            <p>Registro Profesor<a target="_blank" rel="noopener noreferrer"
+                href="https://ionicframework.com/docs/components">Registrar</a></p>
+
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </div>
+
+  </ion-grid>
 </ion-content>
